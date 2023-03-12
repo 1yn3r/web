@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#top-bar {
+    background-color: rgba(79, 34, 39);
+    height: auto;
+    top: 0;
+    
+}
+
+#info {
+    padding: 0 15px;
+    margin: 0 15px;
+}
+
+.chao-mung {
+    display: inline-block;
+}
+.chao-mung li {
+    display: inline-block;
+}
+
+
+.chao-mung li a {
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 48px;
+}
+
+.chinh-sach {
+    float : right;
+    list-style: none;
+}
+.chinh-sach li {
+    display: inline-block;
+   
+}
+
+
+.chinh-sach li a {
+    color : rgb(158, 157, 157);
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 48px;
+    padding: 0 20px;
+    
+}
+
+.chinh-sach li:hover a {
+    color: #fff;
+}
+
+#search-box-top {
+    height: 90px;
+    max-height: 1250px;
+   
+}
+
+.logo {
+    display: inline-block;
+    float: left;
+    padding: 10px 15px;
+    margin: 0 15px;
+
+}
+
+.search {
+    float: right;
+    padding: 0 15px;
+    margin: 0 15px;
+}
+
+.search #search-box {
+    display: inline-block;
+    line-height: 90px;
+
+}
+
+.search #search-text {
+    padding: 5px 5px;
+    margin: 5px 5px;
+    width: 800px;
+    border-radius: 20px;
+}
+
+.search #search-btn {
+    background-color:rgba(79, 34, 39) ;
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+}
+.search .buy {
+    display: inline-block;
+    background-color: rgba(79, 34, 39);
+    height: 50px;
+    line-height: 50px;
+    padding: 0 10px;
+    margin: 0 10px;
+}
+
+.search .buy a,
+.search .buy i {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+#menu {
+    background-color:rgba(79, 34, 39) ;
+    display: flex;
+    position: fixed;
+    left: 0;
+    right: 0;
+    
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:  rgba(79, 34, 39);
+    left: 0;
+    right: 0;
+}
+.box {
+    display: inline-block;
+    padding: 0 15px;
+    margin: 0 15px;
+}
+
+.box .dia-chi {
+    display: inline-block;
+
+}
+
+.dia-chi li {
+    float: left;
+    padding: 0 30px;
+    line-height: 50px;
+    list-style: none;
+    position: relative;
+}
+
+.dia-chi li a {
+    display: block; 
+}
+
+.dia-chi > li > a{
+    display: inline-block;    
+    color:rgb(201, 198, 198);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.dia-chi > li:hover > a{
+    color: #fff;
+    
+}
+
+
+
+.dia-chi .more {
+   display: none; 
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    min-width: 160px;
+}
+
+.dia-chi li:hover .more  {
+    display: block;
+}
+
+.dia-chi .more  a {
+    color: rgb(104, 100, 100);
+    text-decoration: none;
+    line-height: 30px;
+    padding: 5px 0;
+}
+
+.dia-chi .more a:hover {
+    color: black;
+   
+}
+
+#noi-dung {
+    height: 5000px;
+    width: 5000px;
+   
+}
